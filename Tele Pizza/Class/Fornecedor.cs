@@ -7,12 +7,12 @@ namespace Tele_Pizza.Class
 {
     public class Fornecedor
     {
-        protected string razaoSocial { get; set; }
+        protected string nomeFantasia { get; set; }
         protected string nomeComercial { get; set; }
         protected string telefone { get; set; }
         protected string email { get; set; }
         protected string cnpj { get; set; }
-        protected DateTime dataAbertura { get; set; }
+        protected DateTime? dataAbertura { get; set; }
 
 
         protected Endereco Endereco;

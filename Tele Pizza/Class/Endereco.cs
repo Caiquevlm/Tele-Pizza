@@ -7,13 +7,13 @@ namespace Tele_Pizza.Class
 {
     public class Endereco
     {
-        protected string CEP { get; set; }
-        protected string Pais { get; set; }
-        protected string Estado { get; set; }
-        protected string Cidade { get; set; }
-        protected string Bairro { get; set; }
-        protected string Numero { get; set; }
-        protected string Complemento { get; set; }
+        protected string cep { get; set; }
+        protected string pais { get; set; }
+        protected string estado { get; set; }
+        protected string cidade { get; set; }
+        protected string bairro { get; set; }
+        protected int numero { get; set; }
+        protected string complemento { get; set; }
 
     }
 }
